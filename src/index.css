@@ -1,13 +1,12 @@
 body {
   margin: 0;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
   font-stretch: normal;
   font-size: 14px;
   line-height: 1.8;
-
 }
 
 code {

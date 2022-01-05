@@ -27,7 +27,7 @@
   margin: auto;
   width: 100px;
   height: 100px;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   transform: rotate(45deg);
   margin-bottom: 40px;
   justify-content: center;
@@ -37,4 +37,3 @@
   transform: rotate(-45deg);
   width: 80%;
 }
-

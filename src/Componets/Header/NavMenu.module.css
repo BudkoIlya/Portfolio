@@ -10,18 +10,16 @@
   color: white;
 }
 .navMenu > a:first-child {
-  padding:0;
+  padding: 0;
 }
 .navMenu > a:hover {
   color: #ff5005;
 }
 @media screen and (max-width: 350px) {
-  .navMenu > a  {
+  .navMenu > a {
     padding-left: 11px;
   }
   .navMenu {
     margin: 0;
   }
 }
-
-

@@ -13,24 +13,37 @@ const Skill = props => {
         <img src={props.icon} alt="icon" />
       </div>
       <H3>{props.title}</H3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
-        consequatur doloremque ducimus, et sit suscipit.
-      </p>
+      <p>{props.description}</p>
     </div>
   );
 };
 
 const Skills = () => {
+  const jsDescription = "ES5+, TypesScript";
+  const cssDescription = "Sass, Scss, Flex, Grid";
+  const reactDescription =
+    "Знание классовых и функциональных компонент. Знание библиотек: react-router, antd, axios, formik, final-form, redux, mobx, lodash";
   return (
     <div id={"skills"} className={styles.skills}>
       <Fade>
         <div className={styles.container}>
           <H2>My Skills</H2>
           <div className={styles.wrapper}>
-            <Skill title="Java Script" icon={jsIcon} />
-            <Skill title="HTML&CSS" icon={htmlIcon} />
-            <Skill title="React" icon={reactIcon} />
+            <Skill
+              title="Java Script"
+              icon={jsIcon}
+              description={jsDescription}
+            />
+            <Skill
+              title="React"
+              icon={reactIcon}
+              description={reactDescription}
+            />
+            <Skill
+              title="HTML&CSS"
+              icon={htmlIcon}
+              description={cssDescription}
+            />
           </div>
         </div>
       </Fade>

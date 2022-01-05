@@ -23,7 +23,7 @@
   border: 1px solid #4a4a4a;
   padding: 5px;
   background: #252527;
-  outline:none;
+  outline: none;
   caret-color: #74757a;
   color: #74757a;
 }
@@ -37,7 +37,8 @@
   caret-color: #74757a;
   color: #74757a;
 }
-.formArea:focus, .messageArea:focus {
+.formArea:focus,
+.messageArea:focus {
   border: 1px solid #252527;
   transition: border 0.35s;
 }
@@ -48,7 +49,6 @@
   width: 20%;
   padding: 0;
   border: none;
-  margin: auto;
   outline: none;
   margin: 10px auto 30px auto;
   letter-spacing: 1.1px;
@@ -65,7 +65,7 @@
   left: 5%;
   bottom: -40%;
   z-index: -1;
-  transition: .3s;
+  transition: 0.3s;
   cursor: pointer;
 }
 .btnSubmit:hover::after {
@@ -74,10 +74,10 @@
   left: -5%;
 }
 /*меньше 1250px*/
-@media screen and (max-width: 1250px ) {
- .formWrapper {
-   width: 80%;
- }
+@media screen and (max-width: 1250px) {
+  .formWrapper {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 1500px) {
   .btnSubmit {

@@ -6,14 +6,16 @@
   position: relative;
 }
 .project {
+  border-radius: 3px;
   background: #4a4b50;
   width: 500px;
   margin: 20px 10px;
 }
-.project > H3 {
+.project > h3 {
   margin: 15px;
   text-transform: capitalize;
   font-size: 1.1em;
+  text-align: center;
 }
 .description {
   margin-left: 15px;
@@ -26,16 +28,16 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .imgProject > div {
   background: #1f1f20;
   position: absolute;
   opacity: 0.8;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +46,7 @@
 }
 .imgProject:hover {
   filter: blur(2px);
-  transition: filter .3s ease-in-out;
+  transition: filter 0.3s ease-in-out;
 }
 .btn:hover {
   color: orangered;

@@ -2,8 +2,9 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://budkoilya.github.io/PortfolioTest/",
+  "homepage": "https://budkoilya.github.io/Portfolio/",
   "dependencies": {
+    "emailjs-com": "^3.2.0",
     "gh-pages": "^2.1.1",
     "prettier": "^1.18.2",
     "react": "^16.9.0",
@@ -18,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prettier": "prettier --write src/**/*.js",
+    "prettier": "prettier --write \"{,!(node_modules)/**/}*.{ts,js,css,tsx,html,jsx}\"",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },

@@ -50,10 +50,9 @@ h1 {
   position: relative;
   z-index: 1;
   transition: 500ms;
-
 }
 .photo:hover {
-  transform: scale(1.1,1.1);
+  transform: scale(1.1, 1.1);
 }
 .image {
   height: 400px;
@@ -72,7 +71,6 @@ h1 {
   top: -15px;
   z-index: -1;
 }
-
 
 @media screen and (max-width: 612px) {
   .greeting > span:nth-child(2) > span:before {

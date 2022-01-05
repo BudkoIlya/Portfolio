@@ -12,7 +12,7 @@ import Particles from "react-particles-js";
 
 function App() {
   return (
-    <div className="App" >
+    <div className="App">
       <Particles className={"particles"} params={particlesOpts} />
       <Header />
       <Main />
